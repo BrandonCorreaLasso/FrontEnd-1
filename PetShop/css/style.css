@@ -1,0 +1,17 @@
+div.header_black {
+    background-color: #222222;
+}
+
+p.stilo1 {
+    color: #F3F3F3;
+}
+
+li.stilo1 {
+    color: #F3F3F3;
+    margin-right: 20px;
+    display: inline-block;    
+}
+
+div.main1{
+    background-color: #F0A83E;
+}

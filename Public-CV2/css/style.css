@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mia {
+    position: absolute;
+    border-radius: 50%;
+    left: 206px;
+    top: 138px;
+    width: 216px;
+    height: 203px;
+}
+
+.welcome {
+    color: #fff;
+    position: absolute;
+    left: 163px;
+    top: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 48px;
+    text-align: center;
+    width: 100px;
+    height: 58px;
+}
+
+#enlace1 {
+    color: #fff;
+    position: absolute;
+    left: 115px;
+    top: 508px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+#enlace2 {
+    color: #fff;
+    position: absolute;
+    left: 380px;
+    top: 508px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+}
