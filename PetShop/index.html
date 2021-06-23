@@ -22,50 +22,48 @@
             <img src="img/Logo.png" alt="logo">
             <nav>
                 <ul type ="none">
-                    <li style="display: inline-block; margin: 5px;"><a style="color: #FFFFFF;" href="#">Categorias</a></li>
-                    <li style="display: inline-block; margin: 5px;"><a style="color: #FFFFFF;" href="#">Pets</a></li>
-                    <li style="display: inline-block; margin: 5px;"><a style="color: #FFFFFF;" href="#">Nosotros</a></li>
-                    <li style="display: inline-block; margin: 5px;"><a style="color: #FFFFFF;" href="#">Contactanos</a></li>
+                    <li class="listas"><a class="li" href="#">Categorias</a></li>
+                    <li class="listas"><a class="li" href="#">Pets</a></li>
+                    <li class="listas"><a class="li" href="#">Nosotros</a></li>
+                    <li class="listas"><a class="li" href="#">Contactanos</a></li>
                 </ul>
             </nav>
         </div>
-        <p>¡Es un placer tenerte aquí!</p>
+        <p id="placer">¡Es un placer tenerte aquí!</p>
         <section>
-            <img src="img/principal.png" alt="imagen background">
+            <img class="imagen" src="img/principal.png" alt="imagen background">
         </section>
         <section>
-            <p>¡Comederos en descuento!</p>
-                <form action="submit" >
-                    <button style= "background-color: #F0A83E;"><a style="color: #FFFFFF;" href="#">COMEDEROS</a></button>
-                </form>
+            <div class="lugar">
+                <p>¡Comederos en descuento!</p>
+                    <form action="submit" >
+                        <button class="buttom"><a class="li" href="#">COMEDEROS</a></button>
+                    </form>
+            </div>
         </section>
-        <br>
-        <br>
-        <section>
-            <img src="img/pawprint 1.png" alt="patita">
-            <h2 style="text-align: center; margin-left: 40px; color: #3C2313;">Productos destacados</h2>
-            <div style="text-align: center;">
+        <section class="destacados">
+            <h2 class="stilo">Productos destacados</h2>
+            <div>
                 <ul type ="none">
-                    <li style="text-align: center; display: inline-block; margin: 5px;"><a style="color: #666666;" href="#">Categorias</a></li>
-                    <li style="text-align: center; display: inline-block; margin: 5px;"><a style="color: #666666;" href="#">Pets</a></li>
-                    <li style="text-align: center; display: inline-block; margin: 5px;"><a style="color: #666666;" href="#">Nosotros</a></li>
-                    <li style="text-align: center; display: inline-block; margin: 5px;"><a style="color: #666666;" href="#">Contactanos</a></li>
+                    <li class="destacados"><a class="productos" href="#">Comederos</a></li>
+                    <li class="destacados"><a class="productos" href="#">Accesorios</a></li>
+                    <li class="destacados"><a class="productos" href="#">Comida</a></li>
                 </ul>
             </div>
         </section>
         <br>
         <section>
-            <div style="display: inline-block; text-align: center;">
+            <div>
                 <img src="img/churrasquito.png" alt=" juguete churrasquito">
                 <p>Juguete Churrasquito</p>
                 <p style="color: #F0A83E;">$150</p>
             </div>
-            <div style="display: inline-block; text-align: center;">
+            <div> 
                 <img src="img/comedero.png" alt="Comedero para perro">
                 <p>Comedero Para Perro</p>
                 <p style="color: #F0A83E;">$150</p>
             </div>
-            <div style="display: inline-block; text-align: center;">
+            <div>
                 <img src="img/Huesito.png" alt=" juguete churrasquito">
                 <p>Juguete Churrasquito</p>
                 <p style="color: #F0A83E;">$150</p>
@@ -76,28 +74,33 @@
             <form action="" method="POST"></form>
                 <div>
                     <label for="Name_lastname"></label>
-                    <input style="width: 340px; height: 40px; border-radius: 15px;  background-color: #3C2313; color: #FFFFFF; border-color: #3C2313;" type="text" placeholder="Nombre y Apellido" name="Name_lastname" id="Name_lastname">
+                    <input class="forma_form" type="text" placeholder="Nombre y Apellido" name="Name_lastname" id="Name_lastname">
                 </div>
                 <br>
                 <div>
                     <label for="Correo"></label>
-                    <input style="width: 340px; height: 40px; border-radius: 15px;  background-color: #3C2313; color: #FFFFFF; border-color: #3C2313;"  type="text" placeholder="Ingresa tu correo electrónico" name="correo" id="Correo">
+                    <input class="forma_form"  type="text" placeholder="Ingresa tu correo electrónico" name="correo" id="Correo">
                 </div>
                 <br>
                 <div>
                     <label for="Telefono"></label>
-                    <input style="width: 340px; height: 40px; border-radius: 15px; background-color: #3C2313; color: #FFFFFF; border-color: #3C2313;" type="text" placeholder="Teléfono" name="Telefono" id="Telefono">
+                    <input class="forma_form" type="text" placeholder="Teléfono" name="Telefono" id="Telefono">
                 </div>
                 <br>
                 <div>
-                    <input style="background-color: #8A8787; color: #FFFFFF; text-align: center; border-radius: 50px; width: 110px; height: 34px; border-color: #8A8787 ;" type="reset">
-                    <input style="background-color: #F0A83E; color: #FFFFFF; text-align: center; border-radius: 50px; width: 110px; height: 34px; border-color: #F0A83E ;" type="submit">
+                    <input class="buttom_stilo1" type="reset">
+                    <input class="buttom_stilo2" type="submit">
                 </div>
+        </section>
+        <section>
+            <div>
+                
+            </div>
         </section>
     </main>
     <br>
-    <footer style="background-color: black;">
-        <p style="color: #FFFFFF; text-align: center;">Todos los derechos reservados Front End</p>
+    <footer class="color">
+        <p class="footer">Todos los derechos reservados Front End</p>
     </footer>
 </body>
 </html>

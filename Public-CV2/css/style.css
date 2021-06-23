@@ -13,8 +13,8 @@ body {
 #mia {
     position: absolute;
     border-radius: 50%;
-    left: 206px;
-    top: 138px;
+    left: 574px;
+    top: 158px;
     width: 216px;
     height: 203px;
 }
@@ -22,7 +22,7 @@ body {
 .welcome {
     color: #fff;
     position: absolute;
-    left: 163px;
+    left: 535px;
     top: 400px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -35,7 +35,7 @@ body {
 #enlace1 {
     color: #fff;
     position: absolute;
-    left: 115px;
+    left: 466px;
     top: 508px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
@@ -45,7 +45,7 @@ body {
 #enlace2 {
     color: #fff;
     position: absolute;
-    left: 380px;
+    left: 780px;
     top: 508px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
