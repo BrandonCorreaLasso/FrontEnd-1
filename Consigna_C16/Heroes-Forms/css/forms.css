@@ -10,7 +10,7 @@
     background-color: #1CD1B0;
     max-width: 100%;
     height: 38px;
-    padding: .4rem;
+    padding: .6rem;
 }
 
 #sales {
@@ -56,7 +56,7 @@ p.footer {
 footer {
     position: absolute;
     width: 100%;
-    top: 100vw;
+    bottom: 0vw;
 }
 /**End of general css Forms*/
 
@@ -64,6 +64,10 @@ footer {
 
 /**Style css de Login*/
 .contenedor_log {
+    width: 100%;
+    margin-top: 8%;
+
+    /** Flex-box Forms*/
     display: flex;
 
     flex-direction: column;
@@ -71,17 +75,74 @@ footer {
     justify-items: center;
 }
 
+.login {
+    font-size: 3rem;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    margin: 1.5rem;
+    padding-right: 17rem;
+}
+
+.contenedor_log input {
+    width: 25rem;
+    height: 2.2rem;
+    margin: 0.4rem;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+
+.stilo {
+    padding: 0.9rem;
+}
+
+.contenedor_log button {
+    width: 24rem;
+    height: 2.2rem;
+    margin: 2rem;
+
+    background-color: #1CD1B0;
+    border-radius: 2rem;
+    border-style: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contenedor_log a {
+    padding-left: 0.5rem;
+    text-decoration: none;
+    color: #00669F;
+}
 /**End of css Login*/
 
 
 
 /**Style css de Registro*/
-.contenedor {
+.contenedor-registro {
+    width: 100%;
+    margin-top: 8%;
+
+    /** Flex-box Registro*/
     display: flex;
 
     flex-direction: column;
     align-items: center;
     justify-items: center;
+}
+
+.contenedor-registro h2 {
+    font-size: 3rem;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    margin: 1rem;
+    padding-right: 11rem;
+}
+
+.contenedor-registro input, select{
+    width: 25rem;
+    height: 2.2rem;
+    margin: 0.2rem;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
 }
 /**End of css Registro*/
 
