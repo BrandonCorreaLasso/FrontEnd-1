@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor1 {
+    width: 100%;
+    height: 20px;
+    background-color: #222;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.objeto1 {
+    margin-left: 90px;
+}
+
+.objeto2 {
+    margin-right: 60px;
+}
+
+#head_ofertas {
+    color: #F3F3F3;
+    font-size: 10px;
+    height: 12px; 
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#head_ul {
+    color: #F3F3F3;
+    font-size: 10px;
+    height: 12px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+.enlinea {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contenedor2 {
+    width: 100%;
+    height: 62px;
+    background-color: #F0A83E;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.objeto3 {
+    margin-left: 43.7px;
+}
+
+
+#body_ul {
+    color: #F3F3F3;
+    font-size: 17px;
+    margin-right: 40px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+img.logo {
+    height: 25px;
+    width: 190px;
+}
+
+img.desaparece {
+    display: none;
+}
+
+.enlinea1 {
+    display: inline-block;
+    margin-right: 36px;
+}
+
+a  {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+.contenedor3 {
+    margin-right: 200px;
+    background-image: url(../img/principal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30rem;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-content: flex-end;
+}
+
+p.gusto_aqui {
+    background-color: #F3F3F3;
+    width: 380px;
+    height: 54px;
+    padding-top: 9px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    margin-right: 70px;
+    margin-top: -3rem;
+}
+
+p.con_descuento {
+    margin-top: 12px;
+    text-align: center;
+    margin-right: 70px;
+    font-size: 16px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.boton {
+    background-color: #F0A83E;
+    text-transform: uppercase;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: #F3F3F3;
+    height: 50px;
+    width: 141px;
+    margin-top: 12px;
+    margin-left: 119.5px;
+    border-radius: 8px;
+}
+
+.contenedor4 {
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.pawprint {
+    width: 85px;
+    height: 95px;
+    margin-bottom: 10px;
+}
+
+.destacados {
+    font-size: 40px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3C2313;
+}
+
+.opciones {
+    font-size: 15px;
+    color: #666666;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    padding-top: 20px;
+    word-spacing: 13px;
+}
+
+.contenedor5 {
+    margin-top: 50px;
+    margin-bottom: 86px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+}
+
+.objeto4{
+    margin: 50px;
+    width: 265px;
+    height: 269px;
+    text-align: center;
+}
+
+.objeto5{
+    margin: 50px;
+    width: 265px;
+    height: 269px;
+    text-align: center;
+}
+
+.objeto6{
+    margin: 50px;
+    width: 265px;
+    height: 269px;
+    text-align: center;
+}
+
+.textoimagenes{
+    margin-top: -5px;
+    font-size: 15px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3C2313;
+    font-weight: bold;
+    background-color: #FBFAF6;
+}
+
+.cost {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: #F0A83E;
+    background-color: #FBFAF6;
+    padding-bottom: 10px;
+}
+
+.contenedor6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.objeto7 {
+    text-align: center;
+}
+
+.contactanos {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+    color: #3C2313;
+}
+
+div.formulario {
+    width: 340px;
+    height: 40px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    border-color: #3C2313;
+    margin-bottom: 15px;
+}
+
+#form_style {
+    width: 340px;
+    height: 40px;
+    background-color: #3C2313;
+    color: #F3F3F3;
+    text-align: left;
+    padding-left: 15px;
+    border-color: #3C2313;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#enviar {
+    background-color: #F0A83E;
+    height: 34px; 
+    width: 110px;
+    border-color: #F0A83E;
+    border-radius: 15px;
+    text-align: center;
+    border-style: none;
+    color: #F3F3F3;
+    margin-right: 20px;
+}
+
+#reset {
+    background-color: #8A8787;
+    height: 34px; 
+    width: 110px;
+    border-color: #8A8787;
+    border-radius: 15px;
+    text-align: center;
+    border-style: none;
+    color: #F3F3F3;
+}
+
+.contenedor7 {
+    margin-top: 60px;
+    width: 100%;
+    height: 80px;
+    background-color: #F0A83E;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.objeto8 {
+    margin-left: 30px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content:flex-end;
+    align-content: center;
+}
+
+.objeto9 {
+    margin-right: 30px;
+}
+
+.suscribe {
+    color: #F3F3F3;
+    font-size: 20px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px;
+}
+
+
+.ingresamail {
+    width: 271px;
+    height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    border-color: #F3F3F3;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.subs_botom {
+    margin-left: 10px;
+    width: 70px;
+    height: 34px;
+    background-color: #3C2313;
+    border-style: none;
+    border-radius: 15px;
+    color: #F3F3F3;
+    font-size: 9px;
+    text-align: center;
+}
+
+.contenedor8 {
+    width: 100%;
+    height: 350px;
+    background-color: #3C2313;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+.objeto10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.objeto12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.objeto11 {
+    margin-right: 80px;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.final {
+    font-size: 22px;
+    padding-left: 30px;
+    color: #F3F3F3;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.final2 {
+    font-size: 10px;
+    padding-left: 30px;
+    color: #8A8787;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.iconos1 {
+    width: 80px;
+    height: 80px;
+    margin-left: 6px;
+}
+
+.iconos2 {
+    width: 80px;
+    height: 80px;
+}
+
+.iconos3 {
+    width: 80px;
+    height: 80px;
+    margin-left: 90px;
+}
+
+img.final {
+    width: 220px;
+    height: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    padding-top: 5px;
+    background-color: #222;
+    color: #F3F3F3;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+/** media Quary para movil*/
+@media (max-width: 425px) {
+    header {
+        display: none;
+    }
+    img.desaparece {
+        display:unset;
+        margin-left: 20%;
+    }
+    .contenedor2 {
+        justify-content: space-between;
+    }
+    #body_ul {
+        display: none;
+    }
+    .contenedor3 {
+        background-size: 300%;
+        margin-right: 0rem;
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+        justify-content: center;
+        align-content: center;
+    }  
+    p.gusto_aqui {
+        width: 350px;
+        padding-top: 10px;
+        font-size: 25px;
+        margin-right: 0px;
+    }
+    p.con_descuento {
+        margin-right: 0px;
+        margin-left: 9rem
+    }
+    .boton {
+        margin-left: 12rem;
+    }
+    .contenedor4 {
+        text-align: center;
+    }
+    .contenedor7 {
+        height: 9rem;
+    }
+    .objeto8 img {
+        height: 3rem;
+        padding-right: 1rem;
+    }
+    .suscribe {
+        padding: 0;
+        margin-top: .9rem;
+        font-weight: bold;
+    }
+    .contenedor8 {
+        height: 25rem;
+    }
+    .objeto9 {
+        margin: 0;
+        padding-left: 2.2rem;
+    }
+    .objeto12{
+    margin-top: 1rem;
+    }
+    .objeto11 {
+        margin: 3rem 0 5rem 5rem;
+    }
+}
