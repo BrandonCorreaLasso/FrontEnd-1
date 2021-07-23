@@ -38,6 +38,11 @@ h1.super {
     padding-left: 2rem;
 }
 
+/**Agraga padding a los placeholders del form*/
+.stilo {
+    padding: 0.9rem;
+}
+
 
 footer.handsome {
     max-width: 100%;
@@ -91,10 +96,6 @@ footer {
     border-style: solid;
 }
 
-.stilo {
-    padding: 0.9rem;
-}
-
 .contenedor_log button {
     width: 24rem;
     height: 2.2rem;
@@ -144,6 +145,45 @@ footer {
     border-color: rgb(0, 0, 0);
     border-style: solid;
 }
+
+.reset {
+    width: 10rem;
+    height: 2.2rem;
+    margin-right: 2rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+
+
+    background-color: #888888;
+    border-radius: 2rem;
+    border-style: none;
+    font-weight: bold;
+    font-size: 15px; 
+    color:#FFFF 
+}
+
+.enter {
+    width: 10rem;
+    height: 2.2rem;
+    margin-right: 2rem;
+
+    background-color: #1CD1B0;
+    border-radius: 2rem;
+    border-style: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contenedor-registro a {
+    padding-left: 1rem;
+    text-decoration: none;
+    color: #00669F;
+}
+
+.contenedor-registro p{
+    padding-left: 5rem;
+    margin-top: 1rem;
+}
 /**End of css Registro*/
 
 
@@ -154,5 +194,62 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.contenedor_contact h2 {
+    font-size: 3rem;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    padding-top: 8rem;
+    margin-bottom: 2rem;
+    padding-right: 7.8rem;
+    
+}
+
+.contenedor_contact input {
+    width: 25rem;
+    height: 2.2rem;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    margin-left: 2.3rem;
+}
+
+.contenedor_contact textarea{
+    width: 25rem;
+    height: 10rem;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    margin-left: 2.3rem;
+}
+
+
+.reset-registro {
+    width: 12rem;
+    height: 2.2rem;
+
+    background-color: #888888;
+    border-radius: 2rem;
+    border-style: none;
+    font-weight: bold;
+    font-size: 15px; 
+    color:#FFFF;
+    margin-left: 2.21rem;
+}
+
+.enter-registro {
+    width: 12rem;
+    height: 2.2rem;
+
+    background-color: #1CD1B0;
+    border-radius: 2rem;
+    border-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 1rem;
+}
+
+.contenedor_contact a {
+    text-decoration: none;
+    color: #00669F;
 }
 /**End of css Contacto*/
